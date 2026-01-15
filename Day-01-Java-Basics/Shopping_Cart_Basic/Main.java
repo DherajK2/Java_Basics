@@ -27,7 +27,6 @@ public class Main {
         double totalCostWithGst = totalCostWithoutGst + gst;
         System.out.println("Total Bill Amount: " + totalCostWithGst);
 
-        sc.close();  // Close Scanner
+        sc.close();  // Close Scanner very important
     }
 }
-`
